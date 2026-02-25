@@ -1,0 +1,18 @@
+{
+  "name": "cusor-agent-test",
+  "version": "1.0.0",
+  "description": "A minimal Node.js test application",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint src/",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0"
+  }
+}
